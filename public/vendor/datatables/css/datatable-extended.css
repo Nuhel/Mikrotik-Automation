@@ -1,0 +1,22 @@
+.spacer{
+    flex-basis: calc(100% - 349px) !important;
+    background: transparent;
+    border: none;
+}
+.spacer:hover,.spacer:active,.spacer:focus{
+    background: transparent;
+    pointer-events: none;
+    border: none;
+    box-shadow: none
+}
+.dt-buttons.btn-group.flex-wrap{
+    width: 100%;
+}
+
+table.dataTable.table-sm .sorting::before, table.dataTable.table-sm .sorting_asc::before, table.dataTable.table-sm .sorting_desc::before {
+    margin-right: 4px;
+}
+.spacer + button{
+    border-top-left-radius : 10px !important;
+    border-bottom-left-radius : 10px !important;
+}
